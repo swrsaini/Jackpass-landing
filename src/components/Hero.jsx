@@ -3,6 +3,7 @@ import { Navbar } from "./Navbar";
 export const Hero = () => {
   return (
     <div className="relative w-full h-[80vh] overflow-hidden">
+
       <video
         autoPlay
         muted
@@ -10,6 +11,7 @@ export const Hero = () => {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover"
       >
+        
         <source src={videosrc} type="video/mp4" />
       </video>
 
