@@ -56,7 +56,7 @@ export function Footer() {
           </div>
           <div>
             <h4 className="font-semibold text-gray-900 mb-4">Product</h4>
-            <ul className="space-y-3">
+            <ul className="text-sm space-y-3">
               <li>
                 <a href="#" className="text-gray-600 hover:text-gray-900">
                   Features
@@ -86,7 +86,7 @@ export function Footer() {
           </div>
           <div>
             <h4 className="font-semibold text-gray-900 mb-4">Company</h4>
-            <ul className="space-y-3">
+            <ul className="text-sm  space-y-3">
               <li>
                 <a href="#" className="text-gray-600 hover:text-gray-900">
                   About Us
@@ -116,7 +116,7 @@ export function Footer() {
           </div>
           <div>
             <h4 className="font-semibold text-gray-900 mb-4">Support</h4>
-            <ul className="space-y-3">
+            <ul className="text-sm space-y-3">
               <li>
                 <a href="#" className="text-gray-600 hover:text-gray-900">
                   Help Center

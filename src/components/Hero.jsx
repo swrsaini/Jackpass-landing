@@ -12,7 +12,7 @@ export const Hero = () => {
         className="absolute top-0 left-0 w-full h-full object-cover"
       >
         
-        <source src={videosrc} type="video/mp4" />
+        <source src='https://github.com/swrsaini/Jackpass-landing/blob/main/src/assets/videos/Jackpass.mp4?raw=true' type="video/mp4" />
       </video>
 
       <nav className="absolute top-0 left-0 z-20 w-full p-4 bg-transparent">

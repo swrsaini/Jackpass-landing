@@ -28,9 +28,9 @@ export function EventCard({title,date,time,location,image}){
 export function EventSection(){
     return (
         <section className="m-3 my-12 drop-shadow-xl">
-        <div className="container">
+        <div className="container mx-auto">
           <LandingTitle title={'Popular Events'} />
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
             <EventCard
               title="Tech Startup Meetup 2024"
               date="March 15, 2024"

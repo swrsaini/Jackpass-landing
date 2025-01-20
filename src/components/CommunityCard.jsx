@@ -4,7 +4,7 @@ export function CommunityCard({ image, description, name, members, isNew }) {
     return (
         <div className="bg-white rounded-xl shadow-sm hover:shadow-md transition-all overflow-hidden cursor-pointer group">
           <div className="relative h-48">
-            <img src={image} alt={name} className="w-full h-full object-cover" />
+            <img src={image} alt={name} className="w-full h-48 object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
             {isNew && (
               <span className="absolute top-4 right-4 px-2 py-0.5 bg-yellow-400 text-yellow-900 text-xs font-medium rounded-full">
@@ -13,7 +13,7 @@ export function CommunityCard({ image, description, name, members, isNew }) {
             )}
           </div>
           <div className="p-4">
-            <h3 className="font-semibold text-gray-900 mb-1 group-hover:text-blue-600 transition-colors">
+            <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
               {name}
             </h3>
             <p className="text-sm text-gray-500 mb-3">{description}</p>

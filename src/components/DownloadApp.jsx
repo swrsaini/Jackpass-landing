@@ -16,7 +16,7 @@ export function DownloadApp(){
             <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
               Download the Jackpass app and discover events, join communities, and meet people who share your interests.
             </p>
-            <div className="flex flex-col sm:flex-row justify-center items-center gap-4 md:gap-6 mb-8 md:mb-12">
+            <div className="flex flex-row justify-center items-center gap-4 md:gap-6 mb-8 md:mb-12">
               <a href="#" className="group inline-flex items-center bg-white/10 hover:bg-white/20 backdrop-blur-lg rounded-xl p-3  transition-all">
                 <img 
                   src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" 
