@@ -9,6 +9,7 @@ export const Hero = () => {
         muted
         loop
         playsInline
+        preload='auto'
         className="absolute top-0 left-0 w-full h-full object-cover"
       >
         
