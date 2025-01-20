@@ -12,10 +12,10 @@ export function Navbar() {
         onSelect={handleCitySelect}
       ></DropdownButton>
       <div className="flex gap-5">
-        <Button className={"transition-colors duration-300 hover:bg-blue-700"}>
+        <Button className={"transition-colors duration-300 ease-in-out hover:bg-blue-700"}>
           Sign In
         </Button>
-        <Button className={"transition-colors duration-300 hover:bg-blue-700"}>
+        <Button className={"transition-colors duration-300 ease-in-out hover:bg-blue-700"}>
           Sign Up
         </Button>
       </div>
