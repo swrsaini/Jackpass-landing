@@ -1,4 +1,5 @@
-import { Users2 } from "lucide-react";
+import { Users2, ArrowRight } from "lucide-react";
+import { LandingTitle } from "./LandingTitle";
 export function CommunityCard({ image, description, name, members, isNew }) {
     return (
         <div className="bg-white rounded-xl shadow-sm hover:shadow-md transition-all overflow-hidden cursor-pointer group">
@@ -68,24 +69,17 @@ export function CommunitySection(){
       
 
     return (
-        <section className="m-6 drop-shadow-xl">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center mb-8">
-            <h2 className="text-2xl font-bold text-gray-900">Popular Communities</h2>
-            <div className="flex items-center gap-4">
-              <button className="text-blue-600 hover:text-blue-700 font-medium">
-                View All
-              </button>
-            </div>
+        <section className="m-3 my-12 drop-shadow-xl">
+        <div className="container mx-auto ">
+          <LandingTitle title={"Popular Communities"} />
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
             {communities.map((e,index)=>{
                 return <div key={index}>
                     <CommunityCard name={e.clubName} members={e.members} isNew={e.isNew} image={e.coverImg} description={e.description} />
                 </div>
             })}
           </div>
-        </div>
       </section>
     )
 }

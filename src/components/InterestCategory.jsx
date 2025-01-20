@@ -64,7 +64,7 @@ export function InterestSection() {
     }
   };
   return (
-    <div className="overflow-hidden drop-shadow-xl mx-8 my-8  px-2">
+    <div className="overflow-hidden drop-shadow-xl mx-3 my-8">
       <div className="flex justify-between items-center mb-8">
         <h2 className="text-2xl font-bold text-gray-900 ">
           Pick your interest

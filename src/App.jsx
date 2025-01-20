@@ -3,6 +3,7 @@ import { Slider } from "./components/Slider";
 import { Hero } from "./components/Hero";
 import { InterestSection } from "./components/InterestCategory";
 import { CommunitySection } from "./components/CommunityCard";
+import { EventSection } from "./components/Event";
 function App() {
   return (
     <>
@@ -12,7 +13,7 @@ function App() {
       </section>
       <InterestSection />
       <CommunitySection />
-      <CommunitySection />
+      <EventSection />
     </>
   );
 }

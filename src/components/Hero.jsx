@@ -3,7 +3,6 @@ import { Navbar } from "./Navbar";
 export const Hero = () => {
   return (
     <div className="relative w-full h-[80vh] overflow-hidden">
-      {/* Background Video */}
       <video
         autoPlay
         muted
@@ -18,7 +17,6 @@ export const Hero = () => {
         <Navbar></Navbar>
       </nav>
 
-      {/* Overlay Content */}
       <div className="relative z-10 flex items-center justify-center h-full w-full text-white text-center bg-black bg-opacity-50">
         <div>
           <div className="flex justify-center">
