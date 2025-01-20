@@ -1,4 +1,4 @@
-
+import videosrc from '../assets/videos/Jackpass.mp4'
 import { Navbar } from "./Navbar";
 export const Hero = () => {
   return (
@@ -10,7 +10,7 @@ export const Hero = () => {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover"
       >
-        <source src="/Jackpass.mp4" type="video/mp4" />
+        <source src={videosrc} type="video/mp4" />
       </video>
 
       <nav className="absolute top-0 left-0 z-20 w-full p-4 bg-transparent">
