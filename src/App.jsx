@@ -4,6 +4,8 @@ import { Hero } from "./components/Hero";
 import { InterestSection } from "./components/InterestCategory";
 import { CommunitySection } from "./components/CommunityCard";
 import { EventSection } from "./components/Event";
+import { DownloadApp } from "./components/DownloadApp";
+import { Footer } from "./components/Footer";
 function App() {
   return (
     <>
@@ -14,6 +16,8 @@ function App() {
       <InterestSection />
       <CommunitySection />
       <EventSection />
+      <DownloadApp />
+      <Footer></Footer>
     </>
   );
 }

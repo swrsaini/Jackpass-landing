@@ -10,43 +10,60 @@ export function InterestCategory({ icon, label }) {
 }
 
 const categories = [
-  {
-    icon: "🧗‍♂️",
-    label: "Adventure",
-  },
-  {
-    icon: "🎨",
-    label: "Arts",
-  },
-  {
-    icon: "🏃‍♀️",
-    label: "Fitness",
-  },
-  {
-    icon: "🍕",
-    label: "Food",
-  },
-  {
-    icon: "♟️",
-    label: "Indoors",
-  },
-  {
-    icon: "💃",
-    label: "Party",
-  },
-  {
-    icon: "⚽",
-    label: "Sports",
-  },
-  {
-    icon: "🦄",
-    label: "Startups",
-  },
-  {
-    icon: "✈️",
-    label: "Travel",
-  },
-];
+    {
+      icon: "🧗‍♂️",
+      label: "Adventure",
+    },
+    {
+      icon: "🎨",
+      label: "Arts",
+    },
+    {
+      icon: "🏃‍♀️",
+      label: "Fitness",
+    },
+    {
+      icon: "🍕",
+      label: "Food",
+    },
+    {
+      icon: "♟️",
+      label: "Indoors",
+    },
+    {
+      icon: "💃",
+      label: "Party",
+    },
+    {
+      icon: "⚽",
+      label: "Sports",
+    },
+    {
+      icon: "🦄",
+      label: "Startups",
+    },
+    {
+      icon: "✈️",
+      label: "Travel",
+    },
+    {
+      icon: "📚",
+      label: "Education",
+    },
+    {
+      icon: "🎮",
+      label: "Gaming",
+    },
+    {
+      icon: "🌿",
+      label: "Wellness",
+    },
+    {
+      icon: "🎤",
+      label: "Music",
+    },
+  ];
+  
 
 export function InterestSection() {
   const scrollContainerRef = useRef(null);

@@ -73,7 +73,7 @@ export function CommunitySection(){
         <div className="container mx-auto ">
           <LandingTitle title={"Popular Communities"} />
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
             {communities.map((e,index)=>{
                 return <div key={index}>
                     <CommunityCard name={e.clubName} members={e.members} isNew={e.isNew} image={e.coverImg} description={e.description} />
